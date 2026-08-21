@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Phil1228.github.io/chinese-school/sitemap.xml
+Sitemap: https://Yu.loong.click/sitemap.xml
