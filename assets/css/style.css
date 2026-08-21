@@ -414,6 +414,24 @@ a:hover { text-decoration: underline; }
   .contact-direct { grid-template-columns: 1fr; }
   .footer .cols { grid-template-columns: 1fr; gap: 24px; }
 }
+/* ---------- 語言切換器 ---------- */
+.lang-switch { display: flex; gap: 4px; align-items: center; margin-left: 4px; }
+.lang-switch a {
+  font-size: 13px; font-weight: 600; padding: 6px 10px;
+  border-radius: 9px; color: var(--muted); white-space: nowrap;
+}
+.lang-switch a:hover { background: #f1ece3; text-decoration: none; color: var(--brand); }
+.lang-switch a.active { background: #fbe9ea; color: var(--brand); }
+
+@media (max-width: 720px) {
+  .hero-badges { gap: 16px; }
+  .brand { font-size: 17px; }
+  .header .lang-switch { display: none; }
+  .mobile-menu .lang-switch {
+    display: flex; flex-wrap: wrap; padding: 10px 0 12px;
+    border-bottom: 1px solid var(--line); margin-bottom: 8px;
+  }
+}
 @media (max-width: 420px) {
   .hero-badges { gap: 16px; }
   .brand { font-size: 17px; }
