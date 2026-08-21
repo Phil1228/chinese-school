@@ -9,7 +9,7 @@ BRAND = "華語學堂"
 BRAND_EN = "Mandarin School"
 
 # WhatsApp / email (same on all)
-WA = "https://wa.me/852phil.deng"
+WA = "https://wa.me/phil.deng"
 WA_ID = "phil.deng"
 EMAIL = "phoenixdkd@gmail.com"
 MAILTO = "mailto:phoenixdkd@gmail.com"
