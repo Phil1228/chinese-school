@@ -1,0 +1,9 @@
+# 系統 / 編輯器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 無需提交的空資料夾佔位（如有）
+assets/img/.gitkeep
